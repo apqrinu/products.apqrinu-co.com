@@ -220,6 +220,12 @@
                 </div>
                 <span class="price-block__badge">وفّر ٢٠٪ بالكوبون</span>
               </div>
+            ` : theme.priceBefore != null ? `
+              <div class="price-block" role="group" aria-label="السعر: ${escapeHtml(formatSarText(theme.priceBefore))}">
+                <div class="price-block__main">
+                  <span class="price-block__after">${formatSar(theme.priceBefore)}</span>
+                </div>
+              </div>
             ` : ""}
             ${theme.coupon ? `
               <button type="button" class="coupon-block" data-coupon="${escapeHtml(theme.coupon)}" aria-label="نسخ كوبون خصم ٢٠٪ لقالب ${escapeHtml(theme.nameAr)}: ${escapeHtml(theme.coupon)}" title="اضغط لنسخ الكوبون">

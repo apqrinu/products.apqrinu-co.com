@@ -14,6 +14,7 @@
 //                    and as a full block on the detail page. Omit (or "") to hide.
 //   priceBefore    ← original price in SAR (ر.س). Shown with strikethrough next to the discounted price.
 //   priceAfter     ← discounted price in SAR (ر.س) after the 20% coupon.
+//                    Omit it (and leave coupon "") when there is no discount — priceBefore then renders as a plain price.
 //   docs           ← optional external documentation site URL; omit (or "") to hide the docs button
 //   videos[]       ← optional showcase clips for the detail-page slider. Each item:
 //                      { src, poster, title }
@@ -6276,7 +6277,7 @@ const THEMES = [
     "nameAr": "بلس",
     "coupon": "",
     "description": "قالب سلة مرن بمكوّنات ذكية وأقسام تفاعلية غنية كالبطل الرئيسي وتبويبات المنتجات وقبل/بعد، يمنح متجرك تجربة تسوق حديثة وسلسة",
-    "image": "assets/images/covers/plus-cover.webp",
+    "image": "assets/images/covers/max-cover.jpg",
     "sectionsCount": 20,
     "blocksCount": 288,
     "repo": "https://github.com/apqrinu/plus",
@@ -6555,14 +6556,16 @@ const THEMES = [
     "id": "pro",
     "name": "Pro",
     "nameAr": "برو",
-    "coupon": "",
+    "coupon": "F-WBPGCPUI",
+    "priceBefore": 299,
+    "priceAfter": 239.2,
     "description": "قالب سلة بروفيشنال بعناصر ديناميكية وبطاقات اشتراك ذكية وأقسام تسويقية متكاملة تمنح متجرك تجربة تسوق راقية ومتقدمة",
     "image": "assets/images/covers/pro-cover.jpg",
     "sectionsCount": 22,
     "blocksCount": 434,
     "repo": "https://github.com/apqrinu/pro",
     "buyUrl": "",
-    "preview": "",
+    "preview": "https://demostore.salla.sa/dev-nmehywbobegfjhau",
     "docs": "",
     "videos": [],
     "sections": [
@@ -6853,13 +6856,14 @@ const THEMES = [
     "name": "Max",
     "nameAr": "ماكس",
     "coupon": "",
+    "priceBefore": 250,
     "description": "قالب سلة مرن بأقسام تسوّق حديثة كسلايدر الإطلالات وشبكة التصنيفات وبانرات مزدوجة، مصمّم ليمنح متجرك حضوراً بصرياً قوياً وتجربة سلسة",
-    "image": "assets/images/covers/max-cover.jpg",
+    "image": "assets/images/covers/plus-cover.webp",
     "sectionsCount": 19,
     "blocksCount": 390,
     "repo": "https://github.com/apqrinu/max",
     "buyUrl": "",
-    "preview": "",
+    "preview": "https://demostore.salla.sa/ar/dev-9hmvzzcgrur3a2i4",
     "docs": "",
     "videos": [],
     "sections": [

@@ -119,7 +119,11 @@
           <span class="card__price-before" aria-hidden="true">${formatSar(theme.priceBefore)}</span>
           <span class="card__price-tag">بعد الخصم</span>
         </div>`
-      : "";
+      : theme.priceBefore != null
+        ? `<div class="card__price" aria-label="السعر: ${formatSarText(theme.priceBefore)}">
+            <span class="card__price-after">${formatSar(theme.priceBefore)}</span>
+          </div>`
+        : "";
     return `
       <article class="card" data-id="${theme.id}">
         <a class="card__cover" href="theme.html?id=${encodeURIComponent(theme.id)}" aria-label="فتح تفاصيل قالب ${escapeHtml(theme.nameAr)}">
