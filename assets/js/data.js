@@ -6285,8 +6285,8 @@ const THEMES = [
     "sectionsCount": 20,
     "blocksCount": 288,
     "repo": "https://github.com/apqrinu/plus",
-    "buyUrl": "",
-    "preview": "",
+    "buyUrl": "https://s.salla.sa/themes/marketplace/425913980",
+    "preview": "https://demostore.salla.sa/dev-qttsd8vxgyin0xrj",
     "docs": "",
     "videos": [],
     "sections": [
