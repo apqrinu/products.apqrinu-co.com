@@ -4409,14 +4409,14 @@ const THEMES = [
     ]
   },
   {
-    "id": "silina",
-    "name": "Silina",
-    "nameAr": "سيلينا",
+    "id": "Assala",
+    "name": "Assala",
+    "nameAr": "اصاله",
     "coupon": "",
     "priceBefore": 250,
     "priceAfter": 200,
     "description": "قالب سلة متكامل بتصميم مرن يجمع بين الأداء العالي وسهولة التخصيص لتجربة تسوق راقية",
-    "image": "assets/images/covers/silina-cover.png",
+    "image": "assets/images/covers/assala-cover.jpg",
     "sectionsCount": 37,
     "blocksCount": 452,
     "repo": "https://github.com/apqrinu/silina",
